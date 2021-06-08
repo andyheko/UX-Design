@@ -545,18 +545,17 @@ a:before, a:after {
    ========================================================================== */
 
 .blog-bg {
-  background: #2b2b2b;
   padding-right: 0px;
   padding-left: 0px;
 }
 
 .blog-bg h4 {
-  color: #dadada;
+  color: #2b2b2b;
   padding-top: 0px;
 }
 
 .blog-bg h5 {
-  color: #dadada;
+  color: #2b2b2b;
   font-size: 11px;
 }
 
@@ -703,23 +702,3 @@ a:before, a:after {
   margin: 15px 0;
 }
 
-/* Copyrights */
-
-#copyrights {
-  background: #222222;
-  padding: 20px 0;
-  text-align: center;
-}
-
-#copyrights p {
-  margin-bottom: 5px;
-  color: #fff;
-}
-
-#copyrights a {
-  color: #3498db;
-}
-
-.credits {
-  color: #999;
-}
