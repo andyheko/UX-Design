@@ -262,7 +262,7 @@ a:before, a:after {
 }
 
 #headerwrap h1 {
-  color: #ffffff;
+  color: #ffcc99;
   margin-top: 90px;
   padding-bottom: 30px;
   letter-spacing: 8px;
@@ -272,7 +272,7 @@ a:before, a:after {
 }
 
 #headerwrap p {
-  color: #ffffff;
+  color: #ccccff;
   font-size: 40px;
   font-weight: 400;
   text-align: center;
