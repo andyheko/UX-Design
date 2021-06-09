@@ -247,7 +247,6 @@ a:before, a:after {
   margin-top: -50px;
   padding-top: 120px;
   text-align: center;
-  background-attachment: relative;
   background-position: center center;
   min-height: 650px;
   width: 100%;
@@ -357,7 +356,6 @@ a:before, a:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: relative;
   text-align: center;
 }
 
@@ -568,7 +566,7 @@ a:before, a:after {
    MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width:1050px), screen and (max-device-width:1050px) {
+@media screen and (max-width:1050px), screen and (max-width:1050px) {
   body .header {
     background-attachment: scroll;
   }
@@ -576,7 +574,7 @@ a:before, a:after {
 
 /*ipad portrait*/
 
-@media only screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation: portrait) {
   .header {
     background-attachment: scroll;
   }
